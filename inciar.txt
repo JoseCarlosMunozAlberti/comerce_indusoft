@@ -1,0 +1,42 @@
+==========================================================
+PASOS PARA EJECUTAR ESTE PROYECTO (GUÍA PARA PRINCIPIANTES)
+==========================================================
+
+Para ver este proyecto funcionando en tu computadora, sigue estos pasos:
+
+1. INSTALAR LAS HERRAMIENTAS BÁSICAS (Solo se hace una vez)
+----------------------------------------------------------
+* Descarga e instala Node.js desde: https://nodejs.org/ (Elige la versión "LTS").
+* Al instalar Node.js, se instalará automáticamente una herramienta llamada "npm".
+
+2. PREPARAR EL PROYECTO
+-----------------------
+* Descomprime este archivo ZIP en una carpeta de tu computadora.
+* Abre una "Terminal" o "Símbolo del sistema" (CMD) en Windows.
+* Escribe 'cd' seguido de un espacio y arrastra la carpeta del proyecto a la terminal, luego presiona Enter. Ejemplo:
+  cd C:\Usuarios\TuNombre\Escritorio\ProyectoReactNative
+
+3. INSTALAR DEPENDENCIAS
+------------------------
+* En la terminal, escribe el siguiente comando y presiona Enter:
+  npm install
+* (Esto descargará las librerías necesarias. Espera a que termine, puede tardar unos minutos).
+
+4. INSTALAR LA APP "EXPO GO" EN TU CELULAR
+------------------------------------------
+* Ve a la Play Store (Android) o App Store (iPhone).
+* Busca e instala la aplicación llamada "Expo Go".
+
+5. EJECUTAR EL PROGRAMA
+-----------------------
+* En la terminal de tu computadora, escribe:
+  npx expo start
+* Verás que aparece un código QR gigante en la terminal.
+
+6. VER LA APP
+-------------
+* Si tienes Android: Abre la app "Expo Go" y presiona "Scan QR Code". Escanea el código de la pantalla.
+* Si tienes iPhone: Abre la cámara normal del celular, apunta al código QR y presiona el enlace que aparece para abrirlo en "Expo Go".
+
+¡Listo! La aplicación se cargará en tu celular.
+==========================================================
